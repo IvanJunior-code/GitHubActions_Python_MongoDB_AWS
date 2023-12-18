@@ -1,5 +1,5 @@
-from fastapi.responses import HTMLResponse
 from fastapi import FastAPI
+from fastapi.responses import HTMLResponse
 from pydantic import BaseSettings
 
 app = FastAPI()
