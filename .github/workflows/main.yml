@@ -32,6 +32,9 @@ jobs:
 
     - name: Black check
       run: black .
+    
+    - name: Install mypy
+      run: pip install mypy
 
     - name: Mypy check
       run: mypy app
